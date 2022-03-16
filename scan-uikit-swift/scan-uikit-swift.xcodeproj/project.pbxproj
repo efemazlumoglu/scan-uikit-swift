@@ -23,6 +23,7 @@
 		F3CE6EA527E20DE800245B27 /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EA427E20DE800245B27 /* Scan.swift */; };
 		F3CE6EA727E20E2200245B27 /* TestRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EA627E20E2200245B27 /* TestRun.swift */; };
 		F3CE6EAA27E20F6E00245B27 /* MessageLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EA927E20F6E00245B27 /* MessageLabel.swift */; };
+		F3CE6EAC27E21E8500245B27 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EAB27E21E8500245B27 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		F3CE6EA427E20DE800245B27 /* Scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan.swift; sourceTree = "<group>"; };
 		F3CE6EA627E20E2200245B27 /* TestRun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRun.swift; sourceTree = "<group>"; };
 		F3CE6EA927E20F6E00245B27 /* MessageLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageLabel.swift; sourceTree = "<group>"; };
+		F3CE6EAB27E21E8500245B27 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				F3CE6EA927E20F6E00245B27 /* MessageLabel.swift */,
+				F3CE6EAB27E21E8500245B27 /* RoundedButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				F3CE6EA527E20DE800245B27 /* Scan.swift in Sources */,
 				F3CE6E6D27E2073D00245B27 /* ViewController.swift in Sources */,
 				F3CE6E9B27E20D4D00245B27 /* ViewController+Gestures.swift in Sources */,
+				F3CE6EAC27E21E8500245B27 /* RoundedButton.swift in Sources */,
 				F3CE6EA727E20E2200245B27 /* TestRun.swift in Sources */,
 				F3CE6E9F27E20D8B00245B27 /* ViewController+NavigationBar.swift in Sources */,
 				F3CE6E6927E2073D00245B27 /* AppDelegate.swift in Sources */,
