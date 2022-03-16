@@ -22,6 +22,7 @@
 		F3CE6EA327E20DB600245B27 /* ShareScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EA227E20DB600245B27 /* ShareScanViewController.swift */; };
 		F3CE6EA527E20DE800245B27 /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EA427E20DE800245B27 /* Scan.swift */; };
 		F3CE6EA727E20E2200245B27 /* TestRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EA627E20E2200245B27 /* TestRun.swift */; };
+		F3CE6EAA27E20F6E00245B27 /* MessageLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EA927E20F6E00245B27 /* MessageLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		F3CE6EA227E20DB600245B27 /* ShareScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareScanViewController.swift; sourceTree = "<group>"; };
 		F3CE6EA427E20DE800245B27 /* Scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan.swift; sourceTree = "<group>"; };
 		F3CE6EA627E20E2200245B27 /* TestRun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRun.swift; sourceTree = "<group>"; };
+		F3CE6EA927E20F6E00245B27 /* MessageLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		F3CE6E6727E2073D00245B27 /* scan-uikit-swift */ = {
 			isa = PBXGroup;
 			children = (
+				F3CE6EA827E20F5600245B27 /* Views */,
 				F3CE6E9927E20BE100245B27 /* Controllers */,
 				F3CE6E9827E20BD200245B27 /* Storyboards */,
 				F3CE6E7127E2073F00245B27 /* Assets.xcassets */,
@@ -159,6 +162,14 @@
 				F3CE6EA627E20E2200245B27 /* TestRun.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F3CE6EA827E20F5600245B27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE6EA927E20F6E00245B27 /* MessageLabel.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +305,7 @@
 			files = (
 				F3CE6EA127E20D9E00245B27 /* ViewController+SessionInfo.swift in Sources */,
 				F3CE6EA327E20DB600245B27 /* ShareScanViewController.swift in Sources */,
+				F3CE6EAA27E20F6E00245B27 /* MessageLabel.swift in Sources */,
 				F3CE6EA527E20DE800245B27 /* Scan.swift in Sources */,
 				F3CE6E6D27E2073D00245B27 /* ViewController.swift in Sources */,
 				F3CE6E9B27E20D4D00245B27 /* ViewController+Gestures.swift in Sources */,
