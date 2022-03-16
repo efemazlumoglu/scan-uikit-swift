@@ -26,6 +26,7 @@
 		F3CE6EAC27E21E8500245B27 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EAB27E21E8500245B27 /* RoundedButton.swift */; };
 		F3CE6EAE27E21EB600245B27 /* FlashlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EAD27E21EB600245B27 /* FlashlightButton.swift */; };
 		F3CE6EB127E21EED00245B27 /* ThresholdPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB027E21EED00245B27 /* ThresholdPanGestureRecognizer.swift */; };
+		F3CE6EB327E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB227E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		F3CE6EAB27E21E8500245B27 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		F3CE6EAD27E21EB600245B27 /* FlashlightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashlightButton.swift; sourceTree = "<group>"; };
 		F3CE6EB027E21EED00245B27 /* ThresholdPanGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdPanGestureRecognizer.swift; sourceTree = "<group>"; };
+		F3CE6EB227E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdPinchGestureRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				F3CE6EB027E21EED00245B27 /* ThresholdPanGestureRecognizer.swift */,
+				F3CE6EB227E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift */,
 			);
 			path = "Gesture Recognizers";
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				F3CE6E6D27E2073D00245B27 /* ViewController.swift in Sources */,
 				F3CE6E9B27E20D4D00245B27 /* ViewController+Gestures.swift in Sources */,
 				F3CE6EAC27E21E8500245B27 /* RoundedButton.swift in Sources */,
+				F3CE6EB327E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift in Sources */,
 				F3CE6EA727E20E2200245B27 /* TestRun.swift in Sources */,
 				F3CE6EB127E21EED00245B27 /* ThresholdPanGestureRecognizer.swift in Sources */,
 				F3CE6E9F27E20D8B00245B27 /* ViewController+NavigationBar.swift in Sources */,
