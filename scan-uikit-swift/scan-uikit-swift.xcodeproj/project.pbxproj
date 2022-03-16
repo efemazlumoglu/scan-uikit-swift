@@ -27,6 +27,7 @@
 		F3CE6EAE27E21EB600245B27 /* FlashlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EAD27E21EB600245B27 /* FlashlightButton.swift */; };
 		F3CE6EB127E21EED00245B27 /* ThresholdPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB027E21EED00245B27 /* ThresholdPanGestureRecognizer.swift */; };
 		F3CE6EB327E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB227E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift */; };
+		F3CE6EB527E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB427E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		F3CE6EAD27E21EB600245B27 /* FlashlightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashlightButton.swift; sourceTree = "<group>"; };
 		F3CE6EB027E21EED00245B27 /* ThresholdPanGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdPanGestureRecognizer.swift; sourceTree = "<group>"; };
 		F3CE6EB227E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdPinchGestureRecognizer.swift; sourceTree = "<group>"; };
+		F3CE6EB427E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdRotationGestureRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			children = (
 				F3CE6EB027E21EED00245B27 /* ThresholdPanGestureRecognizer.swift */,
 				F3CE6EB227E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift */,
+				F3CE6EB427E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift */,
 			);
 			path = "Gesture Recognizers";
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 			files = (
 				F3CE6EA127E20D9E00245B27 /* ViewController+SessionInfo.swift in Sources */,
 				F3CE6EA327E20DB600245B27 /* ShareScanViewController.swift in Sources */,
+				F3CE6EB527E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift in Sources */,
 				F3CE6EAA27E20F6E00245B27 /* MessageLabel.swift in Sources */,
 				F3CE6EAE27E21EB600245B27 /* FlashlightButton.swift in Sources */,
 				F3CE6EA527E20DE800245B27 /* Scan.swift in Sources */,
