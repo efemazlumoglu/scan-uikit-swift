@@ -28,6 +28,7 @@
 		F3CE6EB127E21EED00245B27 /* ThresholdPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB027E21EED00245B27 /* ThresholdPanGestureRecognizer.swift */; };
 		F3CE6EB327E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB227E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift */; };
 		F3CE6EB527E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB427E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift */; };
+		F3CE6EB827E21F7900245B27 /* DetectedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB727E21F7900245B27 /* DetectedObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		F3CE6EB027E21EED00245B27 /* ThresholdPanGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdPanGestureRecognizer.swift; sourceTree = "<group>"; };
 		F3CE6EB227E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdPinchGestureRecognizer.swift; sourceTree = "<group>"; };
 		F3CE6EB427E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdRotationGestureRecognizer.swift; sourceTree = "<group>"; };
+		F3CE6EB727E21F7900245B27 /* DetectedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		F3CE6E6727E2073D00245B27 /* scan-uikit-swift */ = {
 			isa = PBXGroup;
 			children = (
+				F3CE6EB627E21F6100245B27 /* 3D UI and Visualizations */,
 				F3CE6EAF27E21EDA00245B27 /* Gesture Recognizers */,
 				F3CE6EA827E20F5600245B27 /* Views */,
 				F3CE6E9927E20BE100245B27 /* Controllers */,
@@ -193,6 +196,14 @@
 				F3CE6EB427E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift */,
 			);
 			path = "Gesture Recognizers";
+			sourceTree = "<group>";
+		};
+		F3CE6EB627E21F6100245B27 /* 3D UI and Visualizations */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE6EB727E21F7900245B27 /* DetectedObject.swift */,
+			);
+			path = "3D UI and Visualizations";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +345,7 @@
 				F3CE6EA527E20DE800245B27 /* Scan.swift in Sources */,
 				F3CE6E6D27E2073D00245B27 /* ViewController.swift in Sources */,
 				F3CE6E9B27E20D4D00245B27 /* ViewController+Gestures.swift in Sources */,
+				F3CE6EB827E21F7900245B27 /* DetectedObject.swift in Sources */,
 				F3CE6EAC27E21E8500245B27 /* RoundedButton.swift in Sources */,
 				F3CE6EB327E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift in Sources */,
 				F3CE6EA727E20E2200245B27 /* TestRun.swift in Sources */,
