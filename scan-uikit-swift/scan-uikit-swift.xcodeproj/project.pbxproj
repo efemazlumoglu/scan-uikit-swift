@@ -29,6 +29,7 @@
 		F3CE6EB327E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB227E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift */; };
 		F3CE6EB527E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB427E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift */; };
 		F3CE6EB827E21F7900245B27 /* DetectedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB727E21F7900245B27 /* DetectedObject.swift */; };
+		F3CE6EBA27E21FAB00245B27 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB927E21FAB00245B27 /* BoundingBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		F3CE6EB227E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdPinchGestureRecognizer.swift; sourceTree = "<group>"; };
 		F3CE6EB427E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdRotationGestureRecognizer.swift; sourceTree = "<group>"; };
 		F3CE6EB727E21F7900245B27 /* DetectedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedObject.swift; sourceTree = "<group>"; };
+		F3CE6EB927E21FAB00245B27 /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				F3CE6EB727E21F7900245B27 /* DetectedObject.swift */,
+				F3CE6EB927E21FAB00245B27 /* BoundingBox.swift */,
 			);
 			path = "3D UI and Visualizations";
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				F3CE6EB527E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift in Sources */,
 				F3CE6EAA27E20F6E00245B27 /* MessageLabel.swift in Sources */,
 				F3CE6EAE27E21EB600245B27 /* FlashlightButton.swift in Sources */,
+				F3CE6EBA27E21FAB00245B27 /* BoundingBox.swift in Sources */,
 				F3CE6EA527E20DE800245B27 /* Scan.swift in Sources */,
 				F3CE6E6D27E2073D00245B27 /* ViewController.swift in Sources */,
 				F3CE6E9B27E20D4D00245B27 /* ViewController+Gestures.swift in Sources */,
