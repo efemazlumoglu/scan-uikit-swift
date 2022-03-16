@@ -21,6 +21,7 @@
 		F3CE6EA127E20D9E00245B27 /* ViewController+SessionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EA027E20D9E00245B27 /* ViewController+SessionInfo.swift */; };
 		F3CE6EA327E20DB600245B27 /* ShareScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EA227E20DB600245B27 /* ShareScanViewController.swift */; };
 		F3CE6EA527E20DE800245B27 /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EA427E20DE800245B27 /* Scan.swift */; };
+		F3CE6EA727E20E2200245B27 /* TestRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EA627E20E2200245B27 /* TestRun.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		F3CE6EA027E20D9E00245B27 /* ViewController+SessionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+SessionInfo.swift"; sourceTree = "<group>"; };
 		F3CE6EA227E20DB600245B27 /* ShareScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareScanViewController.swift; sourceTree = "<group>"; };
 		F3CE6EA427E20DE800245B27 /* Scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan.swift; sourceTree = "<group>"; };
+		F3CE6EA627E20E2200245B27 /* TestRun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRun.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				F3CE6EA027E20D9E00245B27 /* ViewController+SessionInfo.swift */,
 				F3CE6EA227E20DB600245B27 /* ShareScanViewController.swift */,
 				F3CE6EA427E20DE800245B27 /* Scan.swift */,
+				F3CE6EA627E20E2200245B27 /* TestRun.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				F3CE6EA527E20DE800245B27 /* Scan.swift in Sources */,
 				F3CE6E6D27E2073D00245B27 /* ViewController.swift in Sources */,
 				F3CE6E9B27E20D4D00245B27 /* ViewController+Gestures.swift in Sources */,
+				F3CE6EA727E20E2200245B27 /* TestRun.swift in Sources */,
 				F3CE6E9F27E20D8B00245B27 /* ViewController+NavigationBar.swift in Sources */,
 				F3CE6E6927E2073D00245B27 /* AppDelegate.swift in Sources */,
 				F3CE6E9D27E20D6500245B27 /* ViewController+ApplicationState.swift in Sources */,
