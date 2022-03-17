@@ -42,6 +42,7 @@
 		F3CE6ECE27E3610100245B27 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6ECD27E3610000245B27 /* Tile.swift */; };
 		F3CE6ED027E3612A00245B27 /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6ECF27E3612A00245B27 /* Wireframe.swift */; };
 		F3CE6ED327E3618E00245B27 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6ED227E3618E00245B27 /* Utilities.swift */; };
+		F3CE6ED527E3621400245B27 /* ARCameraTrackingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6ED427E3621400245B27 /* ARCameraTrackingState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		F3CE6ECD27E3610000245B27 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		F3CE6ECF27E3612A00245B27 /* Wireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
 		F3CE6ED227E3618E00245B27 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		F3CE6ED427E3621400245B27 /* ARCameraTrackingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCameraTrackingState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				F3CE6ED227E3618E00245B27 /* Utilities.swift */,
+				F3CE6ED427E3621400245B27 /* ARCameraTrackingState.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				F3CE6ECE27E3610100245B27 /* Tile.swift in Sources */,
 				F3CE6EA727E20E2200245B27 /* TestRun.swift in Sources */,
 				F3CE6EC227E35F9D00245B27 /* ObjectOrigin.swift in Sources */,
+				F3CE6ED527E3621400245B27 /* ARCameraTrackingState.swift in Sources */,
 				F3CE6EB127E21EED00245B27 /* ThresholdPanGestureRecognizer.swift in Sources */,
 				F3CE6E9F27E20D8B00245B27 /* ViewController+NavigationBar.swift in Sources */,
 				F3CE6ECC27E360D000245B27 /* Snapping.swift in Sources */,
