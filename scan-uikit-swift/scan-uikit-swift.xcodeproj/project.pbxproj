@@ -10,7 +10,6 @@
 		F3CE6E6927E2073D00245B27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6E6827E2073D00245B27 /* AppDelegate.swift */; };
 		F3CE6E6D27E2073D00245B27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6E6C27E2073D00245B27 /* ViewController.swift */; };
 		F3CE6E7027E2073D00245B27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CE6E6E27E2073D00245B27 /* Main.storyboard */; };
-		F3CE6E7227E2073F00245B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CE6E7127E2073F00245B27 /* Assets.xcassets */; };
 		F3CE6E7527E2073F00245B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CE6E7327E2073F00245B27 /* LaunchScreen.storyboard */; };
 		F3CE6E8027E2073F00245B27 /* scan_uikit_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6E7F27E2073F00245B27 /* scan_uikit_swiftTests.swift */; };
 		F3CE6E8A27E2073F00245B27 /* scan_uikit_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6E8927E2073F00245B27 /* scan_uikit_swiftUITests.swift */; };
@@ -43,6 +42,9 @@
 		F3CE6ED027E3612A00245B27 /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6ECF27E3612A00245B27 /* Wireframe.swift */; };
 		F3CE6ED327E3618E00245B27 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6ED227E3618E00245B27 /* Utilities.swift */; };
 		F3CE6ED527E3621400245B27 /* ARCameraTrackingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6ED427E3621400245B27 /* ARCameraTrackingState.swift */; };
+		F3CE6ED727E3671E00245B27 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CE6ED627E3671E00245B27 /* art.scnassets */; };
+		F3CE6EDB27E3696B00245B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CE6EDA27E3696B00245B27 /* Assets.xcassets */; };
+		F3CE6EDF27E369C600245B27 /* scan-uikit-swift in Resources */ = {isa = PBXBuildFile; fileRef = F3CE6EDE27E369C600245B27 /* scan-uikit-swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +69,6 @@
 		F3CE6E6827E2073D00245B27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3CE6E6C27E2073D00245B27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3CE6E6F27E2073D00245B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3CE6E7127E2073F00245B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3CE6E7427E2073F00245B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3CE6E7627E2073F00245B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3CE6E7B27E2073F00245B27 /* scan-uikit-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "scan-uikit-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +104,9 @@
 		F3CE6ECF27E3612A00245B27 /* Wireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
 		F3CE6ED227E3618E00245B27 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		F3CE6ED427E3621400245B27 /* ARCameraTrackingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCameraTrackingState.swift; sourceTree = "<group>"; };
+		F3CE6ED627E3671E00245B27 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		F3CE6EDA27E3696B00245B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3CE6EDE27E369C600245B27 /* scan-uikit-swift */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "scan-uikit-swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				F3CE6E6727E2073D00245B27 /* scan-uikit-swift */,
+				F3CE6EDE27E369C600245B27 /* scan-uikit-swift */,
 				F3CE6E7E27E2073F00245B27 /* scan-uikit-swiftTests */,
 				F3CE6E8827E2073F00245B27 /* scan-uikit-swiftUITests */,
 				F3CE6E6627E2073D00245B27 /* Products */,
@@ -159,8 +164,9 @@
 				F3CE6EA827E20F5600245B27 /* Views */,
 				F3CE6E9927E20BE100245B27 /* Controllers */,
 				F3CE6E9827E20BD200245B27 /* Storyboards */,
-				F3CE6E7127E2073F00245B27 /* Assets.xcassets */,
+				F3CE6ED627E3671E00245B27 /* art.scnassets */,
 				F3CE6E7627E2073F00245B27 /* Info.plist */,
+				F3CE6EDA27E3696B00245B27 /* Assets.xcassets */,
 			);
 			path = "scan-uikit-swift";
 			sourceTree = "<group>";
@@ -361,8 +367,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3CE6E7527E2073F00245B27 /* LaunchScreen.storyboard in Resources */,
-				F3CE6E7227E2073F00245B27 /* Assets.xcassets in Resources */,
+				F3CE6ED727E3671E00245B27 /* art.scnassets in Resources */,
 				F3CE6E7027E2073D00245B27 /* Main.storyboard in Resources */,
+				F3CE6EDF27E369C600245B27 /* scan-uikit-swift in Resources */,
+				F3CE6EDB27E3696B00245B27 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,6 +603,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XXYB66DA42;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "scan-uikit-swift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -622,6 +631,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XXYB66DA42;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "scan-uikit-swift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
