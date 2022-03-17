@@ -40,6 +40,7 @@
 		F3CE6ECA27E3606B00245B27 /* ScannedPointCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EC927E3606B00245B27 /* ScannedPointCloud.swift */; };
 		F3CE6ECC27E360D000245B27 /* Snapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6ECB27E360D000245B27 /* Snapping.swift */; };
 		F3CE6ECE27E3610100245B27 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6ECD27E3610000245B27 /* Tile.swift */; };
+		F3CE6ED027E3612A00245B27 /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6ECF27E3612A00245B27 /* Wireframe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		F3CE6EC927E3606B00245B27 /* ScannedPointCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedPointCloud.swift; sourceTree = "<group>"; };
 		F3CE6ECB27E360D000245B27 /* Snapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapping.swift; sourceTree = "<group>"; };
 		F3CE6ECD27E3610000245B27 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		F3CE6ECF27E3612A00245B27 /* Wireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +237,7 @@
 				F3CE6EC927E3606B00245B27 /* ScannedPointCloud.swift */,
 				F3CE6ECB27E360D000245B27 /* Snapping.swift */,
 				F3CE6ECD27E3610000245B27 /* Tile.swift */,
+				F3CE6ECF27E3612A00245B27 /* Wireframe.swift */,
 			);
 			path = "3D UI and Visualizations";
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				F3CE6EAE27E21EB600245B27 /* FlashlightButton.swift in Sources */,
 				F3CE6EBA27E21FAB00245B27 /* BoundingBox.swift in Sources */,
 				F3CE6EA527E20DE800245B27 /* Scan.swift in Sources */,
+				F3CE6ED027E3612A00245B27 /* Wireframe.swift in Sources */,
 				F3CE6E6D27E2073D00245B27 /* ViewController.swift in Sources */,
 				F3CE6EC827E3603F00245B27 /* ScannedObject.swift in Sources */,
 				F3CE6E9B27E20D4D00245B27 /* ViewController+Gestures.swift in Sources */,
