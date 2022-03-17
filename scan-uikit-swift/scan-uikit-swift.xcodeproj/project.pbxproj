@@ -152,8 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				F3CE6ED127E3618100245B27 /* Utilities */,
-				F3CE6EB627E21F6100245B27 /* 3D UI and Visualizations */,
-				F3CE6EAF27E21EDA00245B27 /* Gesture Recognizers */,
+				F3CE6EB627E21F6100245B27 /* 3DVisualizations */,
+				F3CE6EAF27E21EDA00245B27 /* GestureRecognizers */,
 				F3CE6EA827E20F5600245B27 /* Views */,
 				F3CE6E9927E20BE100245B27 /* Controllers */,
 				F3CE6E9827E20BD200245B27 /* Storyboards */,
@@ -215,17 +215,17 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		F3CE6EAF27E21EDA00245B27 /* Gesture Recognizers */ = {
+		F3CE6EAF27E21EDA00245B27 /* GestureRecognizers */ = {
 			isa = PBXGroup;
 			children = (
 				F3CE6EB027E21EED00245B27 /* ThresholdPanGestureRecognizer.swift */,
 				F3CE6EB227E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift */,
 				F3CE6EB427E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift */,
 			);
-			path = "Gesture Recognizers";
+			path = GestureRecognizers;
 			sourceTree = "<group>";
 		};
-		F3CE6EB627E21F6100245B27 /* 3D UI and Visualizations */ = {
+		F3CE6EB627E21F6100245B27 /* 3DVisualizations */ = {
 			isa = PBXGroup;
 			children = (
 				F3CE6EB727E21F7900245B27 /* DetectedObject.swift */,
@@ -242,7 +242,7 @@
 				F3CE6ECD27E3610000245B27 /* Tile.swift */,
 				F3CE6ECF27E3612A00245B27 /* Wireframe.swift */,
 			);
-			path = "3D UI and Visualizations";
+			path = 3DVisualizations;
 			sourceTree = "<group>";
 		};
 		F3CE6ED127E3618100245B27 /* Utilities */ = {
