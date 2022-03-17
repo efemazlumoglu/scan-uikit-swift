@@ -35,6 +35,7 @@
 		F3CE6EC027E35F8800245B27 /* DetectedPointCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EBF27E35F8800245B27 /* DetectedPointCloud.swift */; };
 		F3CE6EC227E35F9D00245B27 /* ObjectOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EC127E35F9D00245B27 /* ObjectOrigin.swift */; };
 		F3CE6EC427E35FCE00245B27 /* ObjectOriginAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EC327E35FCE00245B27 /* ObjectOriginAxis.swift */; };
+		F3CE6EC627E3600000245B27 /* PointCloud+CreateVisualization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EC527E3600000245B27 /* PointCloud+CreateVisualization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		F3CE6EBF27E35F8800245B27 /* DetectedPointCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedPointCloud.swift; sourceTree = "<group>"; };
 		F3CE6EC127E35F9D00245B27 /* ObjectOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectOrigin.swift; sourceTree = "<group>"; };
 		F3CE6EC327E35FCE00245B27 /* ObjectOriginAxis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectOriginAxis.swift; sourceTree = "<group>"; };
+		F3CE6EC527E3600000245B27 /* PointCloud+CreateVisualization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PointCloud+CreateVisualization.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 				F3CE6EBF27E35F8800245B27 /* DetectedPointCloud.swift */,
 				F3CE6EC127E35F9D00245B27 /* ObjectOrigin.swift */,
 				F3CE6EC327E35FCE00245B27 /* ObjectOriginAxis.swift */,
+				F3CE6EC527E3600000245B27 /* PointCloud+CreateVisualization.swift */,
 			);
 			path = "3D UI and Visualizations";
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 			files = (
 				F3CE6EA127E20D9E00245B27 /* ViewController+SessionInfo.swift in Sources */,
 				F3CE6EA327E20DB600245B27 /* ShareScanViewController.swift in Sources */,
+				F3CE6EC627E3600000245B27 /* PointCloud+CreateVisualization.swift in Sources */,
 				F3CE6EB527E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift in Sources */,
 				F3CE6EAA27E20F6E00245B27 /* MessageLabel.swift in Sources */,
 				F3CE6EAE27E21EB600245B27 /* FlashlightButton.swift in Sources */,
