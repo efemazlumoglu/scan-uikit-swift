@@ -36,6 +36,7 @@
 		F3CE6EC227E35F9D00245B27 /* ObjectOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EC127E35F9D00245B27 /* ObjectOrigin.swift */; };
 		F3CE6EC427E35FCE00245B27 /* ObjectOriginAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EC327E35FCE00245B27 /* ObjectOriginAxis.swift */; };
 		F3CE6EC627E3600000245B27 /* PointCloud+CreateVisualization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EC527E3600000245B27 /* PointCloud+CreateVisualization.swift */; };
+		F3CE6EC827E3603F00245B27 /* ScannedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EC727E3603F00245B27 /* ScannedObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		F3CE6EC127E35F9D00245B27 /* ObjectOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectOrigin.swift; sourceTree = "<group>"; };
 		F3CE6EC327E35FCE00245B27 /* ObjectOriginAxis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectOriginAxis.swift; sourceTree = "<group>"; };
 		F3CE6EC527E3600000245B27 /* PointCloud+CreateVisualization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PointCloud+CreateVisualization.swift"; sourceTree = "<group>"; };
+		F3CE6EC727E3603F00245B27 /* ScannedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +225,7 @@
 				F3CE6EC127E35F9D00245B27 /* ObjectOrigin.swift */,
 				F3CE6EC327E35FCE00245B27 /* ObjectOriginAxis.swift */,
 				F3CE6EC527E3600000245B27 /* PointCloud+CreateVisualization.swift */,
+				F3CE6EC727E3603F00245B27 /* ScannedObject.swift */,
 			);
 			path = "3D UI and Visualizations";
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 				F3CE6EBA27E21FAB00245B27 /* BoundingBox.swift in Sources */,
 				F3CE6EA527E20DE800245B27 /* Scan.swift in Sources */,
 				F3CE6E6D27E2073D00245B27 /* ViewController.swift in Sources */,
+				F3CE6EC827E3603F00245B27 /* ScannedObject.swift in Sources */,
 				F3CE6E9B27E20D4D00245B27 /* ViewController+Gestures.swift in Sources */,
 				F3CE6EB827E21F7900245B27 /* DetectedObject.swift in Sources */,
 				F3CE6EAC27E21E8500245B27 /* RoundedButton.swift in Sources */,
