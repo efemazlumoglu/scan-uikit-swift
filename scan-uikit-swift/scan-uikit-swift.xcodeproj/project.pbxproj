@@ -38,6 +38,7 @@
 		F3CE6EC627E3600000245B27 /* PointCloud+CreateVisualization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EC527E3600000245B27 /* PointCloud+CreateVisualization.swift */; };
 		F3CE6EC827E3603F00245B27 /* ScannedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EC727E3603F00245B27 /* ScannedObject.swift */; };
 		F3CE6ECA27E3606B00245B27 /* ScannedPointCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EC927E3606B00245B27 /* ScannedPointCloud.swift */; };
+		F3CE6ECC27E360D000245B27 /* Snapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6ECB27E360D000245B27 /* Snapping.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		F3CE6EC527E3600000245B27 /* PointCloud+CreateVisualization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PointCloud+CreateVisualization.swift"; sourceTree = "<group>"; };
 		F3CE6EC727E3603F00245B27 /* ScannedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedObject.swift; sourceTree = "<group>"; };
 		F3CE6EC927E3606B00245B27 /* ScannedPointCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedPointCloud.swift; sourceTree = "<group>"; };
+		F3CE6ECB27E360D000245B27 /* Snapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapping.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +231,7 @@
 				F3CE6EC527E3600000245B27 /* PointCloud+CreateVisualization.swift */,
 				F3CE6EC727E3603F00245B27 /* ScannedObject.swift */,
 				F3CE6EC927E3606B00245B27 /* ScannedPointCloud.swift */,
+				F3CE6ECB27E360D000245B27 /* Snapping.swift */,
 			);
 			path = "3D UI and Visualizations";
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				F3CE6EC227E35F9D00245B27 /* ObjectOrigin.swift in Sources */,
 				F3CE6EB127E21EED00245B27 /* ThresholdPanGestureRecognizer.swift in Sources */,
 				F3CE6E9F27E20D8B00245B27 /* ViewController+NavigationBar.swift in Sources */,
+				F3CE6ECC27E360D000245B27 /* Snapping.swift in Sources */,
 				F3CE6EBE27E35F6900245B27 /* BoundingBoxSide.swift in Sources */,
 				F3CE6E6927E2073D00245B27 /* AppDelegate.swift in Sources */,
 				F3CE6E9D27E20D6500245B27 /* ViewController+ApplicationState.swift in Sources */,
