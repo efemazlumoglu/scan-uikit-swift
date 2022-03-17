@@ -41,6 +41,7 @@
 		F3CE6ECC27E360D000245B27 /* Snapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6ECB27E360D000245B27 /* Snapping.swift */; };
 		F3CE6ECE27E3610100245B27 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6ECD27E3610000245B27 /* Tile.swift */; };
 		F3CE6ED027E3612A00245B27 /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6ECF27E3612A00245B27 /* Wireframe.swift */; };
+		F3CE6ED327E3618E00245B27 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6ED227E3618E00245B27 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		F3CE6ECB27E360D000245B27 /* Snapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapping.swift; sourceTree = "<group>"; };
 		F3CE6ECD27E3610000245B27 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		F3CE6ECF27E3612A00245B27 /* Wireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
+		F3CE6ED227E3618E00245B27 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		F3CE6E6727E2073D00245B27 /* scan-uikit-swift */ = {
 			isa = PBXGroup;
 			children = (
+				F3CE6ED127E3618100245B27 /* Utilities */,
 				F3CE6EB627E21F6100245B27 /* 3D UI and Visualizations */,
 				F3CE6EAF27E21EDA00245B27 /* Gesture Recognizers */,
 				F3CE6EA827E20F5600245B27 /* Views */,
@@ -240,6 +243,14 @@
 				F3CE6ECF27E3612A00245B27 /* Wireframe.swift */,
 			);
 			path = "3D UI and Visualizations";
+			sourceTree = "<group>";
+		};
+		F3CE6ED127E3618100245B27 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE6ED227E3618E00245B27 /* Utilities.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,6 +397,7 @@
 				F3CE6EC827E3603F00245B27 /* ScannedObject.swift in Sources */,
 				F3CE6E9B27E20D4D00245B27 /* ViewController+Gestures.swift in Sources */,
 				F3CE6EB827E21F7900245B27 /* DetectedObject.swift in Sources */,
+				F3CE6ED327E3618E00245B27 /* Utilities.swift in Sources */,
 				F3CE6EAC27E21E8500245B27 /* RoundedButton.swift in Sources */,
 				F3CE6ECA27E3606B00245B27 /* ScannedPointCloud.swift in Sources */,
 				F3CE6EB327E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift in Sources */,
