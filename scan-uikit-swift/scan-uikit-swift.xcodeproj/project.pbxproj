@@ -30,6 +30,7 @@
 		F3CE6EB527E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB427E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift */; };
 		F3CE6EB827E21F7900245B27 /* DetectedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB727E21F7900245B27 /* DetectedObject.swift */; };
 		F3CE6EBA27E21FAB00245B27 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB927E21FAB00245B27 /* BoundingBox.swift */; };
+		F3CE6EBC27E35F2C00245B27 /* DetectedBoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EBB27E35F2C00245B27 /* DetectedBoundingBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		F3CE6EB427E21F4100245B27 /* ThresholdRotationGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdRotationGestureRecognizer.swift; sourceTree = "<group>"; };
 		F3CE6EB727E21F7900245B27 /* DetectedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedObject.swift; sourceTree = "<group>"; };
 		F3CE6EB927E21FAB00245B27 /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
+		F3CE6EBB27E35F2C00245B27 /* DetectedBoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedBoundingBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 			children = (
 				F3CE6EB727E21F7900245B27 /* DetectedObject.swift */,
 				F3CE6EB927E21FAB00245B27 /* BoundingBox.swift */,
+				F3CE6EBB27E35F2C00245B27 /* DetectedBoundingBox.swift */,
 			);
 			path = "3D UI and Visualizations";
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				F3CE6E9F27E20D8B00245B27 /* ViewController+NavigationBar.swift in Sources */,
 				F3CE6E6927E2073D00245B27 /* AppDelegate.swift in Sources */,
 				F3CE6E9D27E20D6500245B27 /* ViewController+ApplicationState.swift in Sources */,
+				F3CE6EBC27E35F2C00245B27 /* DetectedBoundingBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
