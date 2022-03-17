@@ -31,6 +31,9 @@
 		F3CE6EB827E21F7900245B27 /* DetectedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB727E21F7900245B27 /* DetectedObject.swift */; };
 		F3CE6EBA27E21FAB00245B27 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EB927E21FAB00245B27 /* BoundingBox.swift */; };
 		F3CE6EBC27E35F2C00245B27 /* DetectedBoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EBB27E35F2C00245B27 /* DetectedBoundingBox.swift */; };
+		F3CE6EBE27E35F6900245B27 /* BoundingBoxSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EBD27E35F6900245B27 /* BoundingBoxSide.swift */; };
+		F3CE6EC027E35F8800245B27 /* DetectedPointCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EBF27E35F8800245B27 /* DetectedPointCloud.swift */; };
+		F3CE6EC227E35F9D00245B27 /* ObjectOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EC127E35F9D00245B27 /* ObjectOrigin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,9 @@
 		F3CE6EB727E21F7900245B27 /* DetectedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedObject.swift; sourceTree = "<group>"; };
 		F3CE6EB927E21FAB00245B27 /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
 		F3CE6EBB27E35F2C00245B27 /* DetectedBoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedBoundingBox.swift; sourceTree = "<group>"; };
+		F3CE6EBD27E35F6900245B27 /* BoundingBoxSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBoxSide.swift; sourceTree = "<group>"; };
+		F3CE6EBF27E35F8800245B27 /* DetectedPointCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedPointCloud.swift; sourceTree = "<group>"; };
+		F3CE6EC127E35F9D00245B27 /* ObjectOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectOrigin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +214,9 @@
 				F3CE6EB727E21F7900245B27 /* DetectedObject.swift */,
 				F3CE6EB927E21FAB00245B27 /* BoundingBox.swift */,
 				F3CE6EBB27E35F2C00245B27 /* DetectedBoundingBox.swift */,
+				F3CE6EBD27E35F6900245B27 /* BoundingBoxSide.swift */,
+				F3CE6EBF27E35F8800245B27 /* DetectedPointCloud.swift */,
+				F3CE6EC127E35F9D00245B27 /* ObjectOrigin.swift */,
 			);
 			path = "3D UI and Visualizations";
 			sourceTree = "<group>";
@@ -356,10 +365,13 @@
 				F3CE6EAC27E21E8500245B27 /* RoundedButton.swift in Sources */,
 				F3CE6EB327E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift in Sources */,
 				F3CE6EA727E20E2200245B27 /* TestRun.swift in Sources */,
+				F3CE6EC227E35F9D00245B27 /* ObjectOrigin.swift in Sources */,
 				F3CE6EB127E21EED00245B27 /* ThresholdPanGestureRecognizer.swift in Sources */,
 				F3CE6E9F27E20D8B00245B27 /* ViewController+NavigationBar.swift in Sources */,
+				F3CE6EBE27E35F6900245B27 /* BoundingBoxSide.swift in Sources */,
 				F3CE6E6927E2073D00245B27 /* AppDelegate.swift in Sources */,
 				F3CE6E9D27E20D6500245B27 /* ViewController+ApplicationState.swift in Sources */,
+				F3CE6EC027E35F8800245B27 /* DetectedPointCloud.swift in Sources */,
 				F3CE6EBC27E35F2C00245B27 /* DetectedBoundingBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
