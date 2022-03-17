@@ -39,6 +39,7 @@
 		F3CE6EC827E3603F00245B27 /* ScannedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EC727E3603F00245B27 /* ScannedObject.swift */; };
 		F3CE6ECA27E3606B00245B27 /* ScannedPointCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6EC927E3606B00245B27 /* ScannedPointCloud.swift */; };
 		F3CE6ECC27E360D000245B27 /* Snapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6ECB27E360D000245B27 /* Snapping.swift */; };
+		F3CE6ECE27E3610100245B27 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE6ECD27E3610000245B27 /* Tile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		F3CE6EC727E3603F00245B27 /* ScannedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedObject.swift; sourceTree = "<group>"; };
 		F3CE6EC927E3606B00245B27 /* ScannedPointCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedPointCloud.swift; sourceTree = "<group>"; };
 		F3CE6ECB27E360D000245B27 /* Snapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapping.swift; sourceTree = "<group>"; };
+		F3CE6ECD27E3610000245B27 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +234,7 @@
 				F3CE6EC727E3603F00245B27 /* ScannedObject.swift */,
 				F3CE6EC927E3606B00245B27 /* ScannedPointCloud.swift */,
 				F3CE6ECB27E360D000245B27 /* Snapping.swift */,
+				F3CE6ECD27E3610000245B27 /* Tile.swift */,
 			);
 			path = "3D UI and Visualizations";
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				F3CE6EAC27E21E8500245B27 /* RoundedButton.swift in Sources */,
 				F3CE6ECA27E3606B00245B27 /* ScannedPointCloud.swift in Sources */,
 				F3CE6EB327E21F1900245B27 /* ThresholdPinchGestureRecognizer.swift in Sources */,
+				F3CE6ECE27E3610100245B27 /* Tile.swift in Sources */,
 				F3CE6EA727E20E2200245B27 /* TestRun.swift in Sources */,
 				F3CE6EC227E35F9D00245B27 /* ObjectOrigin.swift in Sources */,
 				F3CE6EB127E21EED00245B27 /* ThresholdPanGestureRecognizer.swift in Sources */,
