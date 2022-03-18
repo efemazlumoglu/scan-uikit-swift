@@ -43,7 +43,7 @@ class Wireframe: SCNNode {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func update(extent: float3) {
+    func update(extent: SIMD3<Float>) {
         if let box = self.geometry as? SCNBox {
             box.width = CGFloat(extent.x)
             box.height = CGFloat(extent.y)
