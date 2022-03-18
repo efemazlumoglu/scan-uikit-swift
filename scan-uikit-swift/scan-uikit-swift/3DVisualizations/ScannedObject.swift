@@ -22,7 +22,7 @@ class ScannedObject: SCNNode {
     
     private var sceneView: ARSCNView
     
-    override var simdPosition: float3 {
+    override var simdPosition: SIMD3<Float> {
         didSet {
             NotificationCenter.default.post(name: ScannedObject.positionChangedNotification,
                                             object: self)
